@@ -1,1 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+}
 
+.container{
+    display: grid;
+    place-items: center;
+    margin-top: 200px;
+    
+    
+}
+
+.t{
+    background-color: rgb(245, 247, 250);
+    width: 700px;
+    height: 250px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 15px 20px rgba(172, 160, 160, 0.507);
+
+}
+.head{
+    margin: 40px;
+    font-family: 'Karla', sans-serif;
+    padding: 0px;
+    color: hsla(165, 71%, 30%, 0.555);
+}
+
+
+.prop{
+    margin-left: 40px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    color: rgb(141, 156, 1);
+    
+}
+
+.main{
+    margin-top: 0px;
+    margin-left: 40px;
+    font-family: 'Karla', sans-serif;
+    margin-right: 30px;
+    color: rgb(70, 71, 71);
+}
+
+.b{
+    display: flex;
+}
+
+.bl{
+    background-color: hsla(165, 71%, 30%, 0.678);
+    width: 350px;
+    height: 280px;
+    border-bottom-left-radius: 10px;
+    font-family: 'karla', sans-serif;
+
+}
+    
+.ch{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: whitesmoke;
+
+}
+.c{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.ca{
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.cp{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: rgba(245, 245, 245, 0.644);
+}
+
+.alt{
+    margin-left: 40px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.btn{
+    background-color: rgb(245, 247, 250);
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 15px 20px rgba(172, 160, 160, 0.507);
+    text-align: center;
+    padding-top: 12px;
+    margin: 40px;
+    background-color: rgb(141, 156, 1);
+    color: whitesmoke;
+    
+}
+
+.br{
+    background-color:  hsla(165, 71%, 30%, 0.555);
+    width: 350px;
+    border-bottom-right-radius: 10px;
+    
+
+}
+
+.whuh{
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-family: 'karla', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.whu{
+    margin-left: 40px;
+    margin-right: 80px;
+    font-family: 'karla', sans-serif;
+    color: rgba(255, 255, 255, 0.671);
+    font-size: 15px;
+    line-break: 5px;
+}
