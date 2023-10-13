@@ -131,3 +131,32 @@ body{
     font-size: 15px;
     line-break: 5px;
 }
+
+@media (min-width: 375px) {
+    .container {
+        margin-top: 200px;
+    }
+
+    .t, .bl, .br {
+        width: 700px;
+    }
+
+    .head, .prop, .main, .ch, .alt, .whuh, .whu {
+        font-size: initial;
+    }
+    
+    .b {
+        flex-direction: row;
+        align-items: initial;
+    }
+
+    .bl, .br {
+        width: 350px;
+        height: 280px;
+    }
+
+    .btn {
+        width: 250px;
+        margin: 40px;
+    }
+}
